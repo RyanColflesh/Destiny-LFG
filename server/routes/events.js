@@ -56,4 +56,13 @@ router.patch('/addRequestedUser/:postID', async(req, res) => {
     } 
 });
 
+/* 
+TODO:
+- Change requested user to a joined user
+- Remove joined user
+- Reject requested user
+- Edit description
+- Edit tags
+*/
+
 module.exports = router;

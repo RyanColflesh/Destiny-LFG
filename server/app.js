@@ -1,16 +1,19 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-require('dotenv').config()
+const cors = require('cors');
+require('dotenv').config();
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(cors({origin: 'http://localhost:3000' , credentials :  true}));
 
 //Routes
 const eventsRoute = require('./routes/events');
-app.use('/events', eventsRoute);
+app.use('/api/events', eventsRoute);
 
-app.get('/', (req,res) => {
+app.get('/api', (req,res) => {
     res.send("Home page");
 });
 
