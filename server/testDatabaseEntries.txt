@@ -1,0 +1,5 @@
+{
+    "description" : "Trials of Osiris flawless must have 3.0+ kd",
+    "tags": ["trials of osiris", "pvp", "3+kd"],
+    "submitterID": "everisForge657"
+}
