@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #121212;
+    --surface-color: #272727;
+    --shadow-color: #0C0C0C;
+    --text-color: #FFFFFF;
+}
+
+.form-div {
+    position: relative;
+    background: var(--surface-color);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 10px 30px 5px;
+    box-shadow: 0px 0px 5px 3px var(--shadow-color);
+}
+
+.form {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    font-family: inherit;
+    width: 100%;
+    resize: none;
+    margin: 5px 0px 0px 0px;
+}
+
+.button {
+    background-color: #97EAD2;
+    border: none;
+}

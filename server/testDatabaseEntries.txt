@@ -3,3 +3,9 @@
     "tags": ["trials of osiris", "pvp", "3+kd"],
     "submitterID": "everisForge657"
 }
+
+{
+    "description" : "Last Wish at Riven kwtd",
+    "tags": ["last wish", "kwtd", "riven"],
+    "submitterID": "bingobango3"
+}
