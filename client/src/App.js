@@ -1,6 +1,5 @@
 import './App.css';
-import EventList from './components/EventPanel/EventPanel.js';
-import CreatePost from './components/CreatePost/CreatePost.js'
+import PostSection from './components/PostSection/PostSection.js';
 
 function App() {
   return (
@@ -8,12 +7,7 @@ function App() {
       <div className="header">
         
       </div>
-      <div className="search">
-        <CreatePost/>
-      </div>
-      <div className="activities">
-        <EventList />
-      </div>
+      <PostSection />
     </div>
   );
 }

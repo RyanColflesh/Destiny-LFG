@@ -34,7 +34,9 @@
 }
 
 .activities { 
-  grid-area: activities; 
+  grid-area: activities;
+  max-height: 460px;
+  overflow-y: scroll; 
 }
 
 .footer { 
